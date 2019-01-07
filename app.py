@@ -11,9 +11,6 @@ def index():
 def me():
     return "I'm mingrammer on docker"
 
-
-
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
 
